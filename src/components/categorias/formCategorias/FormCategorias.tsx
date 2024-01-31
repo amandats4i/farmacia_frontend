@@ -65,17 +65,17 @@ function FormCategoria() {
             </h1>
             <form className="w-1/2 flex flex-col gap-4" onSubmit={cadastrarNovaCategoria}>
                 <div className="flex flex-col gap-2">
-                    <label htmlFor="tipo">Tipo de Categoria</label>
+                    <label htmlFor="nome">Nome da Categoria</label>
                     <input
                         type="text"
-                        placeholder="Tipo"
-                        name="tipo"
+                        placeholder="Nome"
+                        name="nome"
                         className="border-2 border-slate-700 rounded p-2"
-                        value={categoria.tipo}
+                        value={categoria.nome}
                         onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
                     />
                 </div>
-                <button className="rounded text-slate-100 bg-green-400 hover:bg-green-800 w-1/2 py-2 mx-auto flex justify-center font-bold" type="submit">
+                <button className="rounded text-slate-100 bg-red-400 hover:bg-sky-500 w-1/2 py-2 mx-auto flex justify-center font-bold" type="submit">
                     {isLoading ?
                         <RotatingLines
                             strokeColor="white"

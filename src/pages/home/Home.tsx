@@ -2,7 +2,7 @@ function Home() {
 
     return(
         <>
-        <div id="container" className="bg-green-400 flex justify-center">
+        <div id="container" className="bg-sky-200 flex justify-center">
        
             <div id="subcontainer" className="container grid grid-cols-2 text-white">
                 
@@ -12,10 +12,10 @@ function Home() {
                         Bem-vindes a Farmacia Bem Estar!</h2>
 
                     <p className="text-xl">
-                        Saúde e bem estar comça aqui.</p>
+                        Saúde e bem estar começa aqui.</p>
 
                     <div className="flex justify-around gap-4">
-                    <button className="bg-violet-500 rounded-full hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 px-8 py-3 font-bold">
+                    <button className="bg-red-300 rounded-full hover:bg-sky-500 active:bg-sky-500 focus:outline-none focus:ring focus:ring-violet-300 px-8 py-3 font-bold">
                             Explorar
                             </button>
                                 

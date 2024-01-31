@@ -37,7 +37,7 @@ function ListaCategorias() {
                 </div >)
             }
             <h1 className="text-4xl text-center my-10 ">
-            <button className="bg-green-400 rounded-full text-white hover:bg-green-500 active:bg-violet-700 px-8 py-3 font-bold">
+            <button className="bg-red-300 rounded-full text-white hover:bg-sky-400 active:bg-violet-700 px-8 py-3 font-bold">
                 <Link to ="/cadastroCategoria">
                 Adicionar Categoria
                 </Link>
